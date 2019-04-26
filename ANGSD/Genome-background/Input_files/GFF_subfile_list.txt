@@ -1,0 +1,8 @@
+GFF01.gff3
+GFF02.gff3
+GFF03.gff3
+GFF04.gff3
+GFF05.gff3
+GFF06.gff3
+GFF07.gff3
+GFF08.gff3
