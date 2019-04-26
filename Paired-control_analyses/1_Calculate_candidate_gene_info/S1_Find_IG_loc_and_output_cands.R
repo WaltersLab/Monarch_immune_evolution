@@ -12,7 +12,7 @@
 
 ## Import datasets----
 # input a list of monarch immune genes
-gene_info <- read.csv("Gene_information_list_0307.csv", header = T)
+gene_info <- read.csv("Gene_information_list_final.csv", header = T)
 all_gene_list <- gene_info$New_ID   # extract names as a list
 
 # input a matrix for all monarch gene locations (modified from the data from neo-Z paper)
