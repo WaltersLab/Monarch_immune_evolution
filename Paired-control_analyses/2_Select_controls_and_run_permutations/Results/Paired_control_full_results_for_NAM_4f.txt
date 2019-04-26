@@ -1,0 +1,13 @@
+"All immune"	"Recognition"	"Signalling"	"Modulation"	"Effector"
+"Tajima's D: test statistic"	-8.5996	-4.4109	-10.328	-1.0682	7.2074
+"Tajima's D: > 0 (%)"	13.1	9.24	1.87	38.65	98.87
+"Tajima's D: P-value"	0.2619	0.1887	0.0432	0.7601	0.0147
+"Pi: test statistic"	-0.1134	-0.0357	-0.1383	0.0336	0.027
+"Pi: > 0 (%)"	16.18	21.16	2.55	72.58	71.43
+"Pi: P-value."	0.3274	0.4186	0.0589	0.5642	0.5958
+"Watterson's theta: test statistic"	-0.0922	-0.0086	-0.1029	0.0561	-0.0369
+"Watterson's theta: > 0 (%)"	23.48	44.04	9.57	80.66	25.65
+"Watterson's theta: P-value"	0.4666	0.8561	0.1916	0.3871	0.5095
+"FST: test statistic"	NA	NA	NA	NA	NA
+"FST: > 0 (%)"	NA	NA	NA	NA	NA
+"FST: P-value"	NA	NA	NA	NA	NA
