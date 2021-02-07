@@ -1,0 +1,127 @@
+Immune Gene Paired-Control Results
+Filtered for dN/dS & pN/pS below 1.5
+
+Pi_0-fold
+	All Immune	Recognition	Modulation	Signaling	Effector
+mean	0.0045	0.00553	0.00568	0.00325	0.00409
+stdev	0.0029	0.00239	0.0029	0.00275	0.00245
+TestStat	0.02141	0.03098	0.03367	-0.0446	0.00136
+P_value	0.4775	0.0065	0.0437	0.0292	0.8609
+direction	Greater	Greater	Greater	Lesser	Greater
+
+
+Tajima's D_0-fold
+	All Immune	Recognition	Modulation	Signaling	Effector
+mean	-1.2226	-1.21582	-1.15221	-1.27236	-1.23141
+stdev	0.54421	0.3761	0.47287	0.638	0.68107
+TestStat	-12.90839	-2.3904	-0.79246	-8.61435	-1.11117
+P_value	0.0338	0.3822	0.7991	0.029	0.5399
+direction	Lesser	Lesser	Lesser	Lesser	Lesser
+
+
+Watterson's theta_0-fold
+	All Immune	Recognition	Modulation	Signaling	Effector
+mean	0.00679	0.00825	0.00818	0.00502	0.0072
+stdev	0.00388	0.00326	0.00366	0.00355	0.00468
+TestStat	0.04601	0.04645	0.04186	-0.05045	0.00814
+P_value	0.2379	0.0037	0.0648	0.0491	0.4355
+direction	Greater	Greater	Greater	Lesser	Greater
+
+
+Pi_4-fold
+	All Immune	Recognition	Modulation	Signaling	Effector
+mean	0.0083	0.00639	0.00765	0.00892	0.01234
+stdev	0.00561	0.00457	0.00389	0.00613	0.0087
+TestStat	-0.04311	-0.04011	-0.01472	-0.0098	0.02152
+P_value	0.516	0.1536	0.6687	0.8253	0.2299
+direction	Lesser	Lesser	Lesser	Lesser	Greater
+
+
+Tajima's D_4-fold
+	All Immune	Recognition	Modulation	Signaling	Effector
+mean	-1.03382	-1.07449	-1.00095	-1.07674	-0.83605
+stdev	0.54618	0.63601	0.55761	0.5224	0.4646
+TestStat	-5.65905	-1.73531	1.26555	-6.34979	1.16051
+P_value	0.376	0.5435	0.7336	0.1294	0.4986
+direction	Lesser	Lesser	Greater	Lesser	Greater
+
+
+Watterson's theta_4-fold
+	All Immune	Recognition	Modulation	Signaling	Effector
+mean	0.01211	0.0093	0.01101	0.01332	0.01698
+stdev	0.00739	0.00571	0.00493	0.00846	0.01029
+TestStat	-0.05357	-0.0526	-0.03572	0.0167	0.01805
+P_value	0.5131	0.1524	0.4158	0.7479	0.4707
+direction	Lesser	Lesser	Lesser	Greater	Greater
+
+
+Pi_gene
+	All Immune	Recognition	Modulation	Signaling	Effector
+mean	0.00529	0.00557	0.00611	0.00444	0.00601
+stdev	0.00245	0.00219	0.00241	0.00237	0.00267
+TestStat	-0.00622	0.00794	0.022	-0.03957	0.00341
+P_value	0.8148	0.5034	0.1596	0.0214	0.6364
+direction	Lesser	Greater	Greater	Lesser	Greater
+
+
+Tajima's D_gene
+	All Immune	Recognition	Modulation	Signaling	Effector
+mean	-1.22987	-1.22165	-1.14239	-1.28335	-1.29813
+stdev	0.33632	0.30993	0.29459	0.37606	0.31506
+TestStat	-9.14753	-2.31608	0.59629	-6.6436	-0.78413
+P_value	0.085	0.3266	0.8255	0.0587	0.5768
+direction	Lesser	Lesser	Greater	Lesser	Lesser
+
+
+Watterson's theta_gene
+	All Immune	Recognition	Modulation	Signaling	Effector
+mean	0.00787	0.00819	0.00874	0.00678	0.00966
+stdev	0.0033	0.00278	0.00309	0.00325	0.00424
+TestStat	0.00995	0.01556	0.02544	-0.04037	0.00933
+P_value	0.7717	0.3065	0.2245	0.0564	0.3223
+direction	Greater	Greater	Greater	Lesser	Greater
+
+
+DoS
+	All Immune	Recognition	Modulation	Signaling	Effector
+mean	0.02194	0.04443	-0.00923	0.02953	0.04313
+stdev	0.10699	0.03894	0.17254	0.06112	0.08175
+TestStat	1.1026	0.58568	-0.62825	0.79762	0.34755
+P_value	0.3659	0.1224	0.3307	0.3498	0.3932
+direction	Greater	Greater	Lesser	Greater	Greater
+
+
+dN/dS
+	All Immune	Recognition	Modulation	Signaling	Effector
+mean	0.11583	0.14707	0.13993	0.08709	0.09854
+stdev	0.08658	0.09748	0.08845	0.07682	0.05358
+TestStat	-0.94706	0.88914	0.35001	-1.7464	-0.43981
+P_value	0.4617	0.0428	0.5745	0.0408	0.3986
+direction	Lesser	Greater	Greater	Lesser	Lesser
+
+
+Pi.N/Pi.S
+	All Immune	Recognition	Modulation	Signaling	Effector
+mean	0.0757	0.0924	0.10437	0.05198	0.05094
+stdev	0.07955	0.09805	0.07996	0.06349	0.07247
+TestStat	-1.69602	0.14578	0.21936	-1.6682	-0.39296
+P_value	0.2243	0.859	0.7692	0.0628	0.2488
+direction	Lesser	Greater	Greater	Lesser	Lesser
+
+
+Alpha
+	All Immune	Recognition	Modulation	Signaling	Effector
+mean	0.322	0.48226	0.25319	0.28417	0.36986
+stdev	0.71945	0.42928	0.52408	0.92211	0.85045
+TestStat	14.47894	4.98705	1.26526	6.01275	2.21388
+P_value	0.213	0.2757	0.7903	0.4916	0.4483
+direction	Greater	Greater	Greater	Greater	Greater
+
+
+Omega-alpha
+	All Immune	Recognition	Modulation	Signaling	Effector
+mean	0.04191	0.05468	0.03556	0.03917	0.0476
+stdev	0.07109	0.05231	0.06535	0.07916	0.09853
+TestStat	0.71806	0.70836	0.09928	-0.00198	-0.08761
+P_value	0.5973	0.1534	0.8781	0.9969	0.8475
+direction	Greater	Greater	Greater	Lesser	Lesser
