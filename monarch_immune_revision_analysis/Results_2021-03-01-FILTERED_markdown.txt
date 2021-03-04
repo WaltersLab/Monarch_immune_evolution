@@ -1,0 +1,91 @@
+Immune Gene Paired-Control Results
+Filtered for dN/dS & pN/pS below 1.5
+
+All Immune
+	TestStat	P_value
+Pi_gene_0d	0.0212	0.4739
+Td_gene_0d	-12.83349	0.0325
+Tw_gene_0d	0.046	0.2415
+Pi_gene_4d	-0.04143	0.5346
+Td_gene_4d	-5.893	0.3588
+Tw_gene_4d	-0.04904	0.5533
+Pi_gene_full	-0.00681	0.7947
+Td_gene_full	-9.29115	0.0776
+Tw_gene_full	0.00978	0.7736
+DOS_east	1.42455	0.2483
+W_Danaus_plexippus_East	-0.55418	0.6684
+East_Pin_Pis_Monarch	-1.74387	0.2296
+alpha_East	15.28958	0.2008
+W_alpha_East	1.15879	0.4007
+
+
+Recognition
+	TestStat	P_value
+Pi_gene_0d	0.03098	0.0063
+Td_gene_0d	-2.3904	0.3795
+Tw_gene_0d	0.04645	0.0034
+Pi_gene_4d	-0.04011	0.1516
+Td_gene_4d	-1.73531	0.5439
+Tw_gene_4d	-0.0526	0.1509
+Pi_gene_full	0.00794	0.5051
+Td_gene_full	-2.31608	0.329
+Tw_gene_full	0.01556	0.3042
+DOS_east	0.58568	0.1202
+W_Danaus_plexippus_East	0.88914	0.0424
+East_Pin_Pis_Monarch	0.14578	0.859
+alpha_East	4.98705	0.2771
+W_alpha_East	0.70836	0.1519
+
+
+Modulation
+	TestStat	P_value
+Pi_gene_0d	0.03367	0.0433
+Td_gene_0d	-0.79246	0.798
+Tw_gene_0d	0.04186	0.065
+Pi_gene_4d	-0.01472	0.6685
+Td_gene_4d	1.26555	0.7348
+Tw_gene_4d	-0.03572	0.417
+Pi_gene_full	0.022	0.1594
+Td_gene_full	0.59629	0.8254
+Tw_gene_full	0.02544	0.2229
+DOS_east	-0.62825	0.331
+W_Danaus_plexippus_East	0.35001	0.5746
+East_Pin_Pis_Monarch	0.21936	0.77
+alpha_East	1.26526	0.7902
+W_alpha_East	0.09928	0.8781
+
+
+Signaling
+	TestStat	P_value
+Pi_gene_0d	-0.04481	0.0318
+Td_gene_0d	-8.53945	0.0351
+Tw_gene_0d	-0.05046	0.0508
+Pi_gene_4d	-0.00812	0.857
+Td_gene_4d	-6.58375	0.1203
+Tw_gene_4d	0.02124	0.6899
+Pi_gene_full	-0.04015	0.0219
+Td_gene_full	-6.78722	0.0589
+Tw_gene_full	-0.04055	0.0541
+DOS_east	1.11956	0.1907
+W_Danaus_plexippus_East	-1.35352	0.1109
+East_Pin_Pis_Monarch	-1.71605	0.0544
+alpha_East	6.8234	0.4322
+W_alpha_East	0.43875	0.5973
+
+
+Effector
+	TestStat	P_value
+Pi_gene_0d	0.00136	0.8617
+Td_gene_0d	-1.11117	0.5376
+Tw_gene_0d	0.00814	0.4348
+Pi_gene_4d	0.02152	0.2296
+Td_gene_4d	1.16051	0.498
+Tw_gene_4d	0.01805	0.4696
+Pi_gene_full	0.00341	0.6355
+Td_gene_full	-0.78413	0.5754
+Tw_gene_full	0.00933	0.3213
+DOS_east	0.34755	0.3901
+W_Danaus_plexippus_East	-0.43981	0.402
+East_Pin_Pis_Monarch	-0.39296	0.2515
+alpha_East	2.21388	0.4486
+W_alpha_East	-0.08761	0.8468

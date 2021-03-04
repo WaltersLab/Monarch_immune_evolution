@@ -1,7 +1,7 @@
 ---
 title: "Monarch Immunity Reboot Permutations -- CURATED"
 author: "Jamie Walters"
-date: "Feb 02, 2021"
+date: "Mar 01, 2021"
 output:
     html_document:
         theme: readable
@@ -13,7 +13,7 @@ output:
 usefilter <- TRUE  # flag to cause filtering
 filttext <- ifelse(usefilter,"-FILTERED", "-ORIGINAL") # for filenaming
 maxval <- 1.5  # maximum value to allow for dN/dS or pN/pS
-datenow <- "_2021-02-08"
+datenow <- "_2021-03-01"
 n.perms <- 10000  # how many permutations to run
 ```
 
@@ -70,7 +70,8 @@ if (usefilter) {
 # Manual inspection suggests 3 genes are problematic and should be removed.
 # DPOGS215182 modulator that has flawed gene model
 # DPOGS213997 & DPOGS210303, effectors that have excessive TajD
-problem.genes <- c("DPOGS215182", "DPOGS213997", "DPOGS210303", "DPOGS209810")
+# DPOGS209810 is the one Signaling gene that is an outlier.
+problem.genes <- c("DPOGS215182", "DPOGS213997", "DPOGS210303") #, "DPOGS209810")
 genestats <- genestats[ ! genestats$Gene_ID %in% problem.genes , ]
 ########### 
 
