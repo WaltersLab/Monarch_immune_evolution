@@ -1,0 +1,40 @@
+---
+title: "Monarch MK Tests"
+author: "Jamie Walters"
+date: "6/23/2021"
+output: 
+  html_document: 
+    highlight: haddock
+editor_options: 
+  chunk_output_type: console
+---
+
+Read MK data for all elegible loci (i.e. having at least 1 synonymous replacement and polymorphism), from which we will extract immune genes.
+
+```{r}
+mks <- read.csv("MK_test_Monarch_eligible_genes_PAPER.csv",header=T,stringsAsFactors=F, row.names=1)
+
+# read in table of 91 immune genes actually analyzed.
+genestats <- read.csv(file = "~/Documents/Projects/Monarch_Immunity_files/Monarch_immunity_reboot_reanalysis/Monarch_immune_evolution/monarch_immune_revision_analysis/Genestats_Filtered_2021-05-15.csv", as.is = T)
+imgenes <- genestats[genestats$Gene_Type == "Immune_genes", c(1,17)]
+table(imgenes$Gene_function)
+
+
+```
+
+
+Now extract immune genes from the genes with MK tests.
+
+```{r}
+im.mks.df <- mks[mks$Gene_ID %in% imgenes[[1]],]
+im.mks.df$Gene_Function <- imgenes[[2]][match(im.mks.df$Gene_ID, imgenes[[1]])]
+table(im.mks.df$Gene_Function)
+```
+
+Now we can examine the statistical significance.
+```{r}
+im.mks.df$fdr <-  p.adjust(p = im.mks.df$p_val, method = "fdr")
+im.mks.df$bon <- p.adjust(p = im.mks.df$p_val, method = "bonferroni")
+knitr::kable(im.mks.df[order(im.mks.df$p_val),])
+```
+
